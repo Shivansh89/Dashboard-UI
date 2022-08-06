@@ -1,0 +1,412 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-color: #f7f7f7 !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.whole-content{
+  display: flex;
+  margin: 0 2rem;
+}
+.left_content{
+  width: 65%;
+  margin-right: 2rem;
+  margin-bottom: 4rem;
+}
+.right_content{
+  width: 35%;
+
+}
+
+/* *********************** Header CSS ********************* */
+.ant-input{
+  position: absolute !important;
+}
+.ant-input-search-button{
+ 
+    border: none !important;
+    background: none !important;
+}
+.ant-input-group-addon{
+  position: relative !important;
+  top: 6px !important;
+  background: none !important;
+}
+.ant-input-group input{
+  padding:10px 2px 10px 10px !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 5rem !important;
+  background: rgba(203, 203, 203, 0.13) !important;
+  color: #fff !important;
+}
+.ant-menu-inline{
+  border: none !important;
+}
+.ant-menu{
+  background: none !important;
+}
+.ant-input-search-button svg{
+  color: #fff;
+}
+.ant-space-vertical{
+  margin-bottom: 10px !important;
+}
+.jsx-9878046f61a5ebf6{
+  color: #fff !important;
+}
+.ant-input-search{
+  width: 240px !important;
+}
+
+
+/* *********************** Slider CSS ********************* */
+
+.slider_main{
+  background: #001529;
+}
+/* *********************** Body Row 1 CSS ********************* */
+.body-h2{
+  font-size: 27px !important;
+}
+.body-h6{
+  color: rgb(133, 133, 133);
+  font-weight: 600;
+}
+
+[data-theme="dark"] .gutter-box {
+  background: #028ac8;
+}
+.ant-card-body{
+  padding: 1rem !important;
+
+}
+.card-content{
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center ;
+}
+.ant-card-meta-avatar{
+  float: none !important;
+  padding: 0.6rem !important;
+
+  border-radius: 3rem ;
+  background-color:rgb(244, 59, 72,0.2);
+  color: #f43b48;
+}
+.ant-card-bordered{
+  width: 100% !important;
+  height: 6rem !important;
+  box-shadow: 1px 1px #e2e2e2;
+  margin-left: 2rem !important;
+}
+
+.ant-card-meta-title {
+  font-size: 30px !important;
+  font-weight: 700 !important;
+}
+.ant-card-meta-title {
+  margin: 0 !important;
+}
+.ant-card-meta-description{
+  color: black !important;
+  font-size: 16px !important;
+}
+.ant-card-meta-avatar svg{
+  width: 2.5rem !important;
+  height: 2rem !important;
+}
+.ant-card-meta::before{
+  content: none !important;
+}
+.ant-card-meta::after{
+  content: none !important;
+}
+
+@media screen and (max-width: 1199px){
+  
+  .ant-card-bordered{
+      margin-bottom: 2rem !important;
+      width: 44% !important;
+  }
+}
+@media screen and (max-width: 575px){
+  .body-h4{
+    display: none;
+  }
+  .ant-card-bordered{
+      margin-bottom: 2rem !important;
+      width: 100% !important;
+  }
+}
+@media screen and (max-width: 992px){
+  .slider_main{
+    display: none;
+  }
+}
+
+
+/* *********************** Body Row 2 CSS ********************* */
+
+.row2_bar canvas{
+  height: 100% !important;
+  width: 98% !important;
+  background-color: #fff;
+  padding: 2rem !important;
+  box-shadow: 1px 1px #e2e2e2 !important;
+}
+.row2_line canvas{
+  height: 100% !important;
+  width: 98% !important;
+  background-color: #fff;
+  padding: 2rem !important;
+  box-shadow: 1px 1px #e2e2e2 !important;
+}
+@media screen and (max-width: 767px){
+  .row2_bar{
+    margin-bottom: 2rem !important; 
+    width: 102% !important;
+  }
+  .row2_line{
+    width: 102% !important;
+  }
+}
+
+
+/* *********************** Body Row 3 CSS ********************* */
+.row3-value {
+  font-weight: 600 !important;
+
+}
+.card_content{
+  box-shadow: 1px 1px #e2e2e2;
+  border-right: 1px solid #e2e2e2 !important;
+}
+
+
+@media screen and (max-width: 575px){
+  .card_content{
+    margin-bottom: 2rem !important;
+    border: none !important;
+  }
+}
+.ant-card-head{
+  border: none !important;
+  padding: 0 1rem !important;
+}
+
+/* *********************** Body Row 4 CSS ********************* */
+.row4_card_content p{
+  font-size: 12px !important;
+  font-weight: 700 !important;
+}
+.row4_card_content p span{
+font-size: 10px !important;
+font-weight: 500 !important;
+}
+.ant-card-head-title{
+  font-weight: 700 !important;
+  font-size: 18px !important;
+}
+.progress{
+  --bs-progress-height: 0.90rem !important;
+  margin-top: 2rem !important;
+  
+}
+.pending{
+  color: red;
+  font-size: small;
+  background-color: #ff8c9496;
+}
+.approved{
+  color: green;
+  font-size: small;
+  background-color: #85fd9f96;
+}
+.row4_button button{
+  background: none;
+  border: 1px solid rgb(204, 204, 204);
+  padding: 0.5rem;
+}
+
+/* *********************** Body Row 5 CSS ********************* */
+
+.ant-table-pagination{
+  display: none !important;
+}
+.row5_table1_heading h5{
+  font-weight: 700 !important;
+}
+.row5_table1_heading button{
+  background: none;
+  color: rgb(6, 109, 150);
+  border: none;
+}
+.row5_table1_heading button:hover{
+  background: none;
+  color: rgb(61, 184, 233);
+  border: none;
+}
+.size_small{
+  border: none !important;
+  font-size: smaller;
+  font-weight: 600 !important;
+  width: fit-content !important;
+}
+
+.row5_table1_button{
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+}
+.ant-table-cell a{
+  color: #1f6cf9 !important;
+}
+
+.ant-table-thead th {
+  font-weight: 600 !important;
+}
+
+/* *********************** Body Row 6 CSS ********************* */
+
+.row6_table1{
+  display: flex;
+}
+.r6_t1_name{
+  margin-left: 0.5rem !important;
+}
+.r6_t1_name p{
+  margin-bottom: 0 !important;
+  font-size: 11px !important;
+  color: #9e9e9e !important;
+}
+.r6_t1_name h6{
+  margin-bottom: 0 !important;
+}
+.active_green{
+  color: green !important;
+}
+.inactive_red{
+  color: red !important;
+}
+.r6_t1_name p span{
+  font-weight: 600 !important;
+  color: #001529 !important;
+}
+
+
+/* *********************** EmpDash CSS ********************* */
+
+.ownerName h4{
+  font-weight: 600;
+}
+.ownerName p{
+  color: #8b8b8b;
+}
+.colorRed{
+  color: #e65046;
+  
+}
+.contentSet{
+  font-size: 20px;
+  margin-bottom: 0 !important;
+}
+.marginRight{
+  margin-right: 1rem;
+}
+.avatarBorder{
+  border: 3px solid #e2e2e2;
+}
+.content_heading h5{
+  margin: 1.5rem 0; 
+  font-weight: 600;
+}
+.content1_left svg{
+  font-size: 35px !important;
+}
+.right_content1_upper_left h5{
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.2rem !important;
+}
+.right_content1_upper_left p{
+  color: #8b8b8b;
+  font-weight: 600;
+}
+.right_content1_upper_right h5{
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.2rem !important;
+}
+.right_content1_upper_right p{
+  color: #8b8b8b;
+  font-weight: 600;
+}
+.right_content1_bottom h5{
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.2rem !important;
+}
+.right_content1_bottom p{
+  color: #8b8b8b;
+  font-weight: 600;
+}
+@media screen and (max-width: 767px){
+  .whole-content{
+    display: block;
+  }
+  .right_content{
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+  .left_content{
+    width: 100%;
+  }
+}
+
+
+/* *********************** Login/Register Page CSS ********************* */
+
+.access_dashboard h5{
+  font-weight: 400 !important;
+  font-size: 17px !important;
+  color: #4d4d4d;
+  margin: 0 !important;
+}
+.Login h2{
+  margin: 0 0 0.5rem 0 !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px !important;
+}
+.footer span{
+  color: red;
+}
+
+
+/* ********************************** */
+
+.addDataForm{
+  position: relative !important;
+}
+
+.ant-btn-primary:focus{
+  color: #028ac8 !important;
+  background: none !important;
+  border: none !important;
+}
+.edit_button{
+  background: none !important;
+  border: 0 !important;
+}

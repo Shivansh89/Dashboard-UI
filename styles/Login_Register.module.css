@@ -1,0 +1,109 @@
+.apply_jobs{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+}
+.apply_jobs_button{
+    color: #fff;
+    background: linear-gradient(to right, #f43b48 0%, #453a94 100%);
+    padding: 0.75rem;
+    border: none;
+    border-radius: 7px;
+    font-size: 17px;
+    cursor: pointer;
+
+}
+.loginLogo{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.login_wrapper{
+    width: 100%;
+    margin-top: 2rem;
+}
+.login_form{
+    padding: 2rem;
+    border: 1px solid #e2e2e2;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    background: #fff;
+    margin-bottom: 2rem;
+}
+.Login{
+    display: flex;
+    justify-content: center;
+}
+.email{
+    font-weight: 400 !important;
+    text-align: start !important;
+    font-size: 15px !important;
+    margin: 2rem 0 0.5rem 0 !important;
+}
+.input_div{
+    display: flex;
+}
+.login_input{
+    width: 100%;
+    height: 45px !important;
+    font-size: medium;
+    padding: 0 0.75rem;
+    font-weight: 400 !important;
+    background: #fbfbfb !important;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+}
+.login_input:focus-visible{
+    outline: none !important;
+}
+
+.password_div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.password{
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    margin: 2rem 0 1rem 0;
+}
+.forgot_password{
+    color: #8b8b8b;
+}
+.login_button_div{
+    margin-top: 2rem;
+    padding: 0.5rem;
+    background: linear-gradient(to right, #f43b48 0%, #453a94 100%);
+    border-radius: 7px;
+    cursor: pointer;
+}
+.login_button_div:hover{
+    background: linear-gradient(to right, #f0717a 0%, #6d5ee0 100%);
+
+}
+.login_button{
+    color: #fff;
+    background: none;
+    border: none;
+    font-size: 22px !important;
+    cursor: pointer;
+}
+.footer{
+    font-size: 14px;
+    font-weight: 400 !important;
+    margin: 1.5rem 0 0.5rem 0;
+}
+.footer span a{
+    color: red !important;
+}
+@media screen and (max-width: 767px){
+    .login_form{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 575px){
+    .login_form{
+        width: 95%;
+    }
+}
